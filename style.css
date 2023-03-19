@@ -1,0 +1,21 @@
+.gallery {
+    place-items: center;
+    display: flex;
+    width: 1040px;
+    height: 1000px;
+  }
+  
+  .gallery img {
+  
+    min-width: 0;
+    flex: 1 1 90px;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+  
+  .gallery img:hover {
+    flex: 1 1 280px;
+    opacity: 1;
+  }
+  
